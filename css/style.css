@@ -1,0 +1,248 @@
+@import url('http://fonts.cdnfonts.com/css/billabong');
+
+* {
+    margin-top: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    
+}
+
+header {
+    width: 100%;
+    height: 60px;
+    position: relative;
+    
+    border-bottom: 1px solid rgba(0,0,0, .2);
+    
+}
+
+header h1 {
+    width: 50%;
+    left:17%;
+    top: 15px;
+    position: absolute;
+    font-size: 30px;
+    font-family: 'Billabong';
+}
+
+img{
+    margin: 10px;
+    width: 30px;
+    height: 30px;
+    left: 65%;
+    top: 5px;
+    position: relative;
+    
+    
+}
+
+main{
+    background-color: rgb(250,250,250);
+    height: 450px;
+    width: 100%;
+    border-bottom: 1px solid rgba(99, 99, 99, 0.2);
+    position: relative;
+    margin: 0% 0% 0% 0%;
+}
+
+main img#foto_perfil {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 225px;
+    top: 0px;
+    border-radius: 50%;
+    padding: 5px;
+    border: 1px solid rgba(0,0,0, .2);
+    box-shadow: 0px 0px 5px rgba(0,0,0, .5);
+}
+div.bio {
+    width:100%;
+    height: 175px;
+    top: 35px;
+    position: absolute;
+}
+
+main h1.instagram {
+    font-family: 'Segoe UI', sans-serif;
+    left: 35%;
+    position: absolute;
+    color: rgb(89,89,89);
+    top: 5px;
+    font-size: 20px;
+}
+
+main h2.idade {
+    font-family: 'Segoe UI', sans-serif;
+    left: 35%;
+    position: absolute;
+    color: rgb(89,89,89);
+    top: 40px;
+    font-size: 20px;
+}
+
+main h2.sexo {
+    font-family: 'Segoe UI', sans-serif;
+    left: 48.2%;
+    position: absolute;
+    color: rgb(89,89,89);
+    top: 40px;
+    font-size: 20px;
+}
+
+main h1.nome {
+    font-family: 'Segoe UI', sans-serif;
+    left: 35%;
+    position: absolute;
+    color: rgb(89,89,89);
+    top: 75px;
+    font-size: 20px;
+}
+
+main h2.celular {
+    font-family: 'Segoe UI', sans-serif;
+    left: 35%;
+    position: absolute;
+    color: rgb(89,89,89);
+    top: 110px;
+    font-size: 20px;
+}
+
+main h1.github a{
+    font-family: 'Segoe UI', sans-serif;
+    left: 35%;
+    position: absolute;
+    color: rgb(89,89,89);
+    top: 145px;
+    font-size: 20px;
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+div.destaques img#html {
+    position: absolute;
+    top: 300px;
+    left: 16%;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    padding: 5px;
+    border: 1px solid rgba(0,0,0, .2);
+    background-color: white;
+    box-shadow: 0px 0px 5px rgba(0,0,0, .5);
+}
+
+div.destaques img#css {
+    position: absolute;
+    top: 300px;
+    left: 25%;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    padding: 5px;
+    border: 1px solid rgba(0,0,0, .2);
+    box-shadow: 0px 0px 5px rgba(0,0,0, .5);
+    background-color: white;
+}
+
+div.destaques img#javascript {
+    position: absolute;
+    top: 300px;
+    left: 34%;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    padding: 5px;
+    border: 1px solid rgba(0,0,0, .2);
+    background-color: white;
+    box-shadow: 0px 0px 5px rgba(0,0,0, .5);
+}
+
+div.destaques img#php {
+    position: absolute;
+    top: 300px;
+    left: 43%;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    padding: 5px;
+    border: 1px solid rgba(0,0,0, .2);
+    background-color: white;
+    box-shadow: 0px 0px 5px rgba(0,0,0, .5);
+}
+
+div.destaques h1#html{
+    position: absolute;
+    top: 400px;
+    left: 17.5%;    
+    font-family: 'Segoe UI', sans-serif;    
+    font-size: 20px;
+}
+
+div.destaques h1#css{
+    position: absolute;
+    top: 400px;
+    left: 27.4%;    
+    font-family: 'Segoe UI', sans-serif;    
+    font-size: 20px;
+}
+
+div.destaques h1#javascript{
+    position: absolute;
+    top: 400px;
+    left: 35.5%;    
+    font-family: 'Segoe UI', sans-serif;    
+    font-size: 20px;
+}
+
+div.destaques h1#php{
+    position: absolute;
+    top: 400px;
+    left: 45.2%;    
+    font-family: 'Segoe UI', sans-serif;    
+    font-size: 20px;
+}
+
+
+main div.feed h1#projetos{
+    font-family: 'Segoe UI', sans-serif;    
+    font-size: 15px;
+    left: 40%;
+    position: absolute;
+    border-top: 1px solid black;
+    width: 5%;
+    padding: 5px;
+}
+
+main div.feed h1#sobre_mim{
+    font-family: 'Segoe UI', sans-serif;    
+    font-size: 15px;
+    left: 52%;
+    position: absolute;
+    width: 6%;
+    padding: 6px;
+    color: rgb(89,89,89)
+}
+
+main div.feed h1#projetos a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+main div.feed h1#sobre_mim a{
+    text-decoration: none;
+    color: rgb(143, 143, 143);
+}
+
+main div.feed img {
+    width: 800px;
+    height: 343px;
+    position: absolute;
+    left: 20%;
+    top: 30px;
+}
+
