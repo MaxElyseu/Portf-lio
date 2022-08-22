@@ -1,0 +1,264 @@
+
+/* HEADER */
+@media(max-width: 500px)
+{
+    body {
+        width: 600px;
+    }
+
+    header {
+        width: 100%;
+        height: 60px;
+        position: relative;        
+        border-bottom: 1px solid rgba(0,0,0, .2);
+               
+    }
+
+    header h1 {
+        width: 50%;
+        left:5%;
+        top: 15px;
+        position: absolute;
+        font-size: 30px;
+        font-family: 'Billabong';
+    }
+
+    img{
+        margin: 5px;
+        width: 20px;
+        height: 20px;
+        left: 35%;
+        top: 15px;
+        position: relative;
+        
+        
+    }
+}
+
+
+/* MAIN BIO*/
+@media(max-width: 500px){
+
+    div.bio {
+        width:100%;
+        height: 100px;
+        top: 35px;
+        position: absolute;
+    }
+
+    main img#foto_perfil {
+        width: 75px;
+        height: 75px;
+        position: absolute;
+        left: 30px;
+        top: 0px;
+        border-radius: 50%;
+        padding: 5px;
+        border: 1px solid rgba(0,0,0, .2);
+        box-shadow: 0px 0px 5px rgba(0,0,0, .5);
+    }
+
+    main h1.instagram {
+        font-family: 'Segoe UI', sans-serif;
+        left: 23%;
+        position: absolute;
+        color: rgb(89,89,89);
+        top: 5px;
+        font-size: 10px;
+    }
+    
+    main h2.idade {
+        font-family: 'Segoe UI', sans-serif;
+        left: 23%;
+        position: absolute;
+        color: rgb(89,89,89);
+        top: 25px;
+        font-size: 10px;
+    }
+    
+    main h2.sexo {
+        font-family: 'Segoe UI', sans-serif;
+        left: 36.2%;
+        position: absolute;
+        color: rgb(89,89,89);
+        top: 25px;
+        font-size: 10px;
+    }
+    
+    main h1.nome {
+        font-family: 'Segoe UI', sans-serif;
+        left: 23%;
+        position: absolute;
+        color: rgb(89,89,89);
+        top: 45px;
+        font-size: 10px;
+    }
+    
+    main h2.celular {
+        font-family: 'Segoe UI', sans-serif;
+        left: 23%;
+        position: absolute;
+        color: rgb(89,89,89);
+        top: 65px;
+        font-size: 10px;
+    }
+    
+    main h1.github a{
+        font-family: 'Segoe UI', sans-serif;
+        left: 23%;
+        position: absolute;
+        color: rgb(89,89,89);
+        top: 85px;
+        font-size: 10px;
+        text-decoration: none;
+        list-style: none;
+        
+    }
+
+}
+
+/* MAIN DESTAQUES*/
+@media(max-width: 500px){
+
+    main#main {
+        height: 250px;
+    }
+
+    /* IMAGENS */
+    div.destaques img#html {
+        position: absolute;
+        top: 150px;
+        left: 5%;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        padding: 5px;
+        border: 1px solid rgba(0,0,0, .2);
+        background-color: white;
+        box-shadow: 0px 0px 5px rgba(0,0,0, .5);
+    }
+
+    div.destaques img#css {
+        position: absolute;
+        top: 150px;
+        left: 17%;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        padding: 5px;
+        border: 1px solid rgba(0,0,0, .2);
+        box-shadow: 0px 0px 5px rgba(0,0,0, .5);
+        background-color: white;
+    }
+    
+    div.destaques img#javascript {
+        position: absolute;
+        top: 150px;
+        left: 29%;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        padding: 5px;
+        border: 1px solid rgba(0,0,0, .2);
+        background-color: white;
+        box-shadow: 0px 0px 5px rgba(0,0,0, .5);
+    }
+    
+    div.destaques img#php {
+        position: absolute;
+        top: 150px;
+        left: 41%;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        padding: 5px;
+        border: 1px solid rgba(0,0,0, .2);
+        background-color: white;
+        box-shadow: 0px 0px 5px rgba(0,0,0, .5);
+    }
+
+    /* TEXTOS */
+    div.destaques h1#html{
+        position: absolute;
+        top: 210px;
+        left: 8%;    
+        font-family: 'Segoe UI', sans-serif;    
+        font-size: 10px;
+    }
+    
+    div.destaques h1#css{
+        position: absolute;
+        top: 210px;
+        left: 20.7%;    
+        font-family: 'Segoe UI', sans-serif;    
+        font-size: 10px;
+    }
+    
+    div.destaques h1#javascript{
+        position: absolute;
+        top: 210px;
+        left: 32%;    
+        font-family: 'Segoe UI', sans-serif;    
+        font-size: 10px;
+    }
+    
+    div.destaques h1#php{
+        position: absolute;
+        top: 210px;
+        left: 44.7%;    
+        font-family: 'Segoe UI', sans-serif;    
+        font-size: 10px;
+    }
+
+}
+
+/* MAIN FEED*/
+
+@media(max-width: 500px){
+
+    main#feed{
+        height: 200px;
+    }
+
+    main div.feed h1#projetos{
+        font-family: 'Segoe UI', sans-serif;    
+        font-size: 10px;
+        left: 20%;
+        position: absolute;
+        border-top: 1px solid black;
+        width: 7.8%;
+        padding: 5px;
+    }
+    
+    main div.feed h1#sobre_mim{
+        font-family: 'Segoe UI', sans-serif;    
+        font-size: 10px;
+        left: 40%;
+        position: absolute;
+        width: 10%;
+        padding: 5px;
+        color: rgb(89,89,89)
+    }
+    
+    main div.feed h1#projetos a{
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+    }
+    
+    main div.feed h1#sobre_mim a{
+        text-decoration: none;
+        color: rgb(143, 143, 143);
+    }
+    
+    main div.feed img {
+        width: 300px;
+        height: 150px;
+        position: absolute;
+        left: 6%;
+        top: 30px;
+    }
+
+    
+}
+
+

@@ -1,0 +1,137 @@
+body, ul, li {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    list-style: none;
+    
+}
+
+body {
+    background-color: rgb(253, 144, 1);
+}
+
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color:black;
+    box-shadow: 0px 3px 15px rgb(0, 0, 0);
+    height: 100%;
+    border-radius: 8px;
+}
+
+
+
+
+
+nav ul{
+    display: flex;
+    position: relative;
+    
+}
+
+nav .menu {    
+    margin-left: 10px;
+    padding: 10px;
+    width: 150px;
+    border: 1px solid rgba(255, 153, 0, 0.8);
+    
+    
+}
+
+
+
+nav .menu:hover {
+    background-color: rgba(255, 153, 0, 0.8);
+    transition: 0.2s;
+  
+}
+
+nav ul .menu{
+    color: white;
+    text-align: center;    
+  
+}
+
+nav ul ul li{    
+    width: 150px;
+    border: 1px solid rgb(0,0,0);
+    
+    float: none;
+    padding: 8px;
+    box-shadow: 2px 2px 5px rgba(0,0,0, 0.8);
+}
+
+nav ul ul {
+    display: none;
+    color: white;
+    
+}
+
+nav ul li:hover ul{
+    display: block;
+    background: rgba(255, 153, 0, 0.8);
+    position: absolute;   
+    top: 40px; 
+    transition: .2s;
+    
+  
+    
+}
+
+nav ul li:hover {
+    display: block;
+    background-color: rgba(0, 0, 0, 0.4);    
+    width: 150px;
+    border: 1px solid rgb(0,0,0);
+    transition: .2s;
+    
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color:black;
+    box-shadow: 0px 3px 15px rgb(0, 0, 0);
+    height: 100%;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+main div {
+    display: flex;
+    height: 100%;
+    
+}
+
+main div img {
+    display: block;
+    width: 100%;
+    margin: 5px 40px 5px 5px;
+    border: 5px solid rgba(255, 153, 0, 0.8);
+    border-radius: 8px;
+    background: rgba(0, 0, 0, 0.4);
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+nav a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    text-align:center;
+    
+}
+
+
+
+
